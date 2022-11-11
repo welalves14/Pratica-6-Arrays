@@ -1,5 +1,8 @@
 let arr = [2, 3, 10]
 
 let tam = arr.length;
-arr2 = arr.abs();
-console.log(tam);
+let soma = arr.reduce((a , v) => a + v, 0);
+
+let resultado = soma/tam;
+
+console.log(resultado);
